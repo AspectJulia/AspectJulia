@@ -1,0 +1,13 @@
+name = "AspectJulia"
+uuid = "4c5d64b4-5fbe-4cea-bc7e-84f69808492d"
+authors = ["Osamu Ishimura <oishimura@outlook.com> and contributors"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.6"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
