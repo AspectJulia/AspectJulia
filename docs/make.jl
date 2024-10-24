@@ -5,7 +5,7 @@ DocMeta.setdocmeta!(AspectJulia, :DocTestSetup, :(using AspectJulia); recursive=
 
 makedocs(;
     modules=[AspectJulia],
-    authors="Osamu Ishimura <oishimura@outlook.com> and contributors",
+    authors="Osamu Ishimura <oishimura@is.s.u-tokyo.ac.jp> and contributors",
     sitename="AspectJulia.jl",
     format=Documenter.HTML(;
         canonical="https://hrontan.github.io/AspectJulia.jl",

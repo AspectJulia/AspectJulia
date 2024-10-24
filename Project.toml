@@ -1,9 +1,17 @@
 name = "AspectJulia"
 uuid = "4c5d64b4-5fbe-4cea-bc7e-84f69808492d"
-authors = ["Osamu Ishimura <oishimura@outlook.com> and contributors"]
-version = "1.0.0-DEV"
+authors = ["Osamu Ishimura <oishimura@is.s.u-tokyo.ac.jp> and contributors"]
+version = "0.1.0-DEV"
+
+[deps]
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+EzXML = "8f5d6c58-4d21-5cfd-889c-e3ad7ee6a615"
+Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
 
 [compat]
+Dates = "1.11.0"
+EzXML = "1.2.0"
+Logging = "1.11.0"
 julia = "1.6"
 
 [extras]
