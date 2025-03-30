@@ -85,7 +85,7 @@ function extract(e, parent_e=nothing, argindex=1)::Union{Nothing,ExprType,Array}
       else
         @info "Not supported assignment, $e"
       end
-    elseif head in [:(:+=), :(:-=), :(:*=), :(:/=), :(://=), :(:\=), :(:^=), :(:%=), :(:|=), :(:&=), :(:⊻=), :(:<<=), :(:>>=), :(:>>>=)] # Assignment with operation
+    elseif head in [:(:+=), :(:-=), :(:*=), :(:/=), :(://=), :(:\=), :(:^=), :(:%=), :(:|=), :(:&=), :(:竓サ=), :(:<<=), :(:>>=), :(:>>>=)] # Assignment with operation
       counter = 0
       map(parse_ref(args[1])) do (name, referers)
         siblings = (counter += 1) == 1 ? [get_siblings(referers)..., args[1:end]...] : get_siblings(referers)
